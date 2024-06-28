@@ -1,2 +1,5 @@
 @use "./reset";
-@use "./grid";
+@use "./grid" with (
+    $grid-columns: 18,
+    $grid-gutter-width: 20px,
+);
